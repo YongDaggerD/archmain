@@ -1,13 +1,46 @@
-@import '~antd/dist/antd.dark.css';
 
-.title{
-color: snow;
+body{
+height: 100%;  
+margin: 0px;
+}
+.wrapper{
+  display: flex; 
+  flex-direction: row;
+  background-color: #262525;
+  height: 100%;
+  width: 100%;
 }
 
-.header{
-text-align: center;
+.wrapper-nav{
+  width: 71px;
+  height: 100%;
 }
 
-.App{
-  text-align: center;
+.wrapper-secondblok{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.wrapper-right{
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar{
+color: salmon;
+background: sienna;
+}
+
+.wrapper-right-bloks{
+display: flex;
+flex-direction: row;
+height: 100%;
+width: 100%;
+}
+.wrapper-content{
+  height: 100%;
+  width: 1070px;
+  margin: 20px;
+  background-color: springgreen;
 }

@@ -1,36 +1,33 @@
 import React from 'react';
 import './App.css';
-import { Layout, Button } from 'antd';
-const { Header } = Layout;
+import Nav from './components/Nav/Nav';
+import Header from './components/Header/Header';
+import Sidebar from './components/Sidebar/Sidebar';
+import { BrowserRouter, Route } from 'react-router-dom';
+import Dashbord from './components/Dashbord/Dashbord';
+import Training from './components/Training/Training';
+import Table from './components/Dashbord/Table/Table';
 
-function App() {
+
+const App = () => {
   return (
-    <div className="wrapper">
-      <Layout>
-        <Header className="header">
-          <h1 className="title">loololol!!!</h1>
-        </Header>
-        <Button>lick me!</Button>
-      </Layout>
-    </div>
-
-    // <div className="App">
-    //   <header className="App-header">
-    //     <img src={logo} className="App-logo" alt="logo" />
-    //     <p>
-    //       Edit <code>src/App.js</code> and save to reload.
-    //     </p>
-    //     <a
-    //       className="App-link"
-    //       href="https://reactjs.org"
-    //       target="_blank"
-    //       rel="noopener noreferrer"
-    //     >
-    //       Learn React
-    //     </a>
-    //   </header>
-    // </div>
-  );
+    <BrowserRouter>
+      <div className="wrapper">
+        <Nav />
+        <div className="wrapper-right">
+          <Header />
+          <div className="wrapper-right-bloks">
+            <div className="wrapper-content">
+              <Route path='/dashbord' component={Dashbord} />
+              <Route path='/training' component={Training} />
+              {/* <Route path='/duel' component={} /> */}
+              <Route path='/table' component={Table} />
+            </div>
+            <Sidebar />
+          </div>
+        </div>
+      </div>
+    </BrowserRouter>);
 }
 
 export default App;

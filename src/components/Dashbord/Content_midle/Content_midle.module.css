@@ -1,0 +1,7 @@
+.content_block{
+    display: flex;
+    flex-direction: row;
+}
+.item{
+flex-grow:1
+}

@@ -1,0 +1,49 @@
+.box_logo{
+    height: 30px;
+    width: 29px;
+    margin-top: 20px;
+    background-image:
+        url(./pic/Aj.svg);
+}
+
+.wrapper{
+    width: 65px;
+    height: 800px;
+    /* height: 100%; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    
+    background: #151517;
+    border: 1px solid #7B6868;
+    box-sizing: border-box;
+    border-radius: 3px 10px 3px 3px;
+}
+
+
+i{
+    margin-top: 15px;
+    font-size: 50px;
+    margin-left: 15px;
+    color:#8A8A8A;
+  }
+
+.lower{
+    margin-bottom: 30px;
+  }
+
+.navlinks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.plus {
+    margin-top: 30px;
+    height: 45px;
+    width: 45px;
+    background-image:
+        url(./pic/button_plus.svg);
+  }

@@ -1,0 +1,14 @@
+.wrapper{
+    background: #151517;
+    border: 1px solid #323030;
+    box-sizing: border-box;
+    border-radius: 15px; 
+    margin: 20px;
+    margin-left: 10px;
+    width: 395px;
+    height: 917px;
+}
+
+.text{
+    color: snow;
+}

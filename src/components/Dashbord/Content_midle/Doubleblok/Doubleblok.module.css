@@ -1,0 +1,23 @@
+.color_box{
+    background: #151517;
+    border: 1px solid #323030;
+    box-sizing: border-box;
+    border-radius: 15px; 
+
+}
+
+.text{
+    color: snow;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.item1{
+flex-grow: 1;
+}
+
+.item2{
+flex-grow: 1;
+}

@@ -1,0 +1,14 @@
+.wrapper{
+    background: #151517;
+    border: 1px solid #323030;
+    box-sizing: border-box;
+    border-radius: 15px; 
+    height: 100%;
+    width: 100%;
+}
+
+.text{
+    color: rgb(250, 255, 252);
+    width: 395px;
+    height: 917px ;
+}
